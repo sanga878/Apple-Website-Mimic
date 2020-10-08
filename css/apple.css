@@ -266,30 +266,30 @@ footer {
 }
 
 #navbar {
-   float:center;
+   background-color: #333;
    width: 100%;
-   background-color: black;
+
 }
 
 .topnav {
-  float: center;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-  width: 80%;
-  /* padding-left: auto; */
-  /* padding-right:auto; */
+   margin: 0 auto 0 auto;
+   width: 80%;
+  padding-left: auto;
+  padding-right:auto;
   overflow: hidden;
   background-color: #333;
 }
 
 .topnav a {
-  float: left;
-  display: block;
+  
+  display: inline-block;
   color: silver;
   text-align: center;
   padding: 10px 40px;
   text-decoration: none;
   font-size: 14px;
+  margin: 0 auto 0 auto;
+  
 }
 
 .topnav a:hover {
